@@ -1,6 +1,6 @@
 ---
-title: Example Category
-description: A description of this category
+title: C++
+description: Modul C++
 image:
 
 # Badge style
