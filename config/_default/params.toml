@@ -75,7 +75,7 @@ enabled = true
 ## Comments
 [comments]
 enabled = true
-provider = "utterances"
+provider = "giscus"
 
 [comments.disqusjs]
 shortname = ""
@@ -87,8 +87,8 @@ adminLabel = ""
 [comments.utterances]
 repo="4ndrexyz/4ndrexyz.github.io"
 issue-term="pathname"
-label="Komentar "
-theme="photon-dark"
+label="Komentar"
+theme="dark-blue"
 crossorigin="anonymous"
 
 [comments.remark42]
@@ -125,18 +125,19 @@ lang = ""
 [comments.cactus]
 defaultHomeserverUrl = "https://matrix.cactus.chat:8448"
 serverName = "cactus.chat"
-siteName = ""
+siteName = "https://4ndrexyz.github.io"
 
 [comments.giscus]
-repo = ""
-repoID = ""
-category = ""
-categoryID = ""
-mapping = ""
+repo = "4ndrexyz/4ndrexyz.github.io"
+repoID = "R_kgDOIa2knQ"
+category = "General"
+categoryID = "DIC_kwDOIa2knc4CShwb"
+mapping = "pathname"
 lightTheme = ""
-darkTheme = ""
+darkTheme = "preferred_color_scheme"
 reactionsEnabled = 1
 emitMetadata = 0
+loading = "lazy"
 
 [comments.gitalk]
 owner = ""
