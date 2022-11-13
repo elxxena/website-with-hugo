@@ -5,11 +5,9 @@ slug: Cara-Membuat-WhatsApp-Bot
 date: 2022-11-11 00:00:00+0000
 image: "https://i.ibb.co/C68VJDZ/Hero-Banner.jpg"
 categories:
-    - Dev
+    - IoT
 tags:
-    - WA Bot
     - WhatsApp Bot
-    - AI
 ---
 
 # Cara Membuat Bot WhatsApp (Step by Step)
