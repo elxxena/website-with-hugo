@@ -1,7 +1,7 @@
 ---
 title: Desain 🎨
 description: 
-image: "https://img.freepik.com/free-vector/hand-drawn-world-graphics-day-illustration_23-2148881520.jpg"
+image: "https://img.freepik.com/premium-vector/designer-drawing-with-pen-graphic-editor-man-creating-website-user-interface-graphic-design-ui-creative-service-concept-horizontal-full-length-vector-illustration_48369-36707.jpg"
 
 # Badge style
 style:

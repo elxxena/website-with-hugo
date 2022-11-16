@@ -1,7 +1,7 @@
 ---
 title: Anime 👹
 description: 
-image: "https://img.freepik.com/free-vector/torii-gate-fuji-mountain_52683-44987.jpg"
+image: "https://i.pinimg.com/564x/1c/f8/58/1cf858e8f33363a3eab3cc0ec40e0b22.jpg"
 
 # Badge style
 style:
