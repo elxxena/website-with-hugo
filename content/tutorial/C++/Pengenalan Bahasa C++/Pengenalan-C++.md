@@ -27,7 +27,7 @@ Sampai sekarang Bahasa C masih digunakan untuk pengembangan sistem operasi, sepe
 
 ![Bjarne Stroustrup!](https://www.engineering.columbia.edu/files/seas/styles/300x300/public/content/bio_profile_image/2020/27/stroustrup_500.png "Bjarne Stroustrup")
 
-Nahhh.. untuk mengatasi masalah ini seorang dokter Bernama **Bjarne Stroustrup** di laboratorium yang sama menciptakan Bahasa baru yaitu Bahasa C++, yang merupakan Bahasa turunan dari Bahasa C. Keistimewaan dari Bahasa C++ adalah karena Bahasa ini mendukung pemrograman berarah objek atau dikenal dengan istilah _Object Oriented Programming_ (OOP).
+Nahhh.. untuk mengatasi masalah ini seorang dokter bernama [**Bjarne Stroustrup**](https://id.wikipedia.org/wiki/Bjarne_Stroustrup) di laboratorium yang sama menciptakan Bahasa baru yaitu Bahasa C++, yang merupakan Bahasa turunan dari Bahasa C. Keistimewaan dari Bahasa C++ adalah karena Bahasa ini mendukung pemrograman berarah objek atau dikenal dengan istilah _Object Oriented Programming_ (OOP).
 
 ## Hubungan antara Bahasa C dan C++
 
@@ -58,7 +58,7 @@ Terdapat beberapa tahapan yang terjadi pada saat proses pembentukan program, dar
 
 Setelah program (file `.exe` atau `.o`) terbentuk, file tersebut dapat dieksekusi atau dijalankan (Run), Program yang melakukan eksekusi ini disebut program **Loader**.
 
-Kerangka kode Program C++
+Berikut adalah kerangka kode Program C++
 
 ```C++
 #include <iostream>
