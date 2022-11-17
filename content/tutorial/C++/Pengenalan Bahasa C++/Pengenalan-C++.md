@@ -80,5 +80,4 @@ int main(){
 >
 > `int main (){...}` : Statement ini digunakan untuk menuliskan fungsi utama.
 
-Mungkin sekian dulu penjelasan mengenai Bahasa C++, semoga bermanfaat dan terimakasih
-bila ada yang ingin ditanyakan silahkan bisa berkomentar, dan sampai jumpa di pembahasan selanjutnya 👋
+Mungkin sekian dulu penjelasan mengenai Bahasa C++, jika ada yang ingin ditanyakan silahkan bisa berkomentar, sampai jumpa di pembahasan selanjutnya 👋
