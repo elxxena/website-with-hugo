@@ -12,8 +12,9 @@ tags:
 
 # Pejelasan dan Pengenalan Bahasa C++
 
-Halo, kali ini kita akan belajar mengenai bahasa pemrograman yang cukup populer yaitu bahasa C++, 
-C++ merupakan Bahasa yang wajib kita pelajari baik pada waktu SMK maupun Kuliah, dulu waktu SMK saya pun juga dituntut untuk belajar bahasa C++ 😅 dan sebenarnya tidak ada salahnya juga kita belajar Bahasa C++ karena menurut saya jika kita mendalami Bahasa C++ maka kita akan mudah mempelajari Bahasa pemrograman lainnya seperti Python, Java, dan lain sebagainya.
+Halo, kali ini kita akan belajar mengenai bahasa pemrograman yang cukup populer yaitu bahasa C++, bagi kalian yang jurusan IT mungkin sudah tidak asing dengan bahasa ini. Bahasa C++ merupakan Bahasa yang wajib kita pelajari baik pada waktu SMK maupun Kuliah, dulu waktu SMK saya pun juga dituntut untuk belajar bahasa C++, mungkin karena jurusan saya yang berkaitan dengan Pemrograman, jadi yaa mau tidak mau harus belajar bahasa ini 😅.
+
+Tapi sebenarnya tidak ada salahnya juga sih kita belajar Bahasa C++, malah menurut saya jika kita mendalami Bahasa C++ maka kita akan lebih mudah mempelajari Bahasa pemrograman yang lainnya seperti Python, Java, dan lain sebagainya.
 
 ## Apa itu C++ ?
 
@@ -27,7 +28,7 @@ Sampai sekarang Bahasa C masih digunakan untuk pengembangan sistem operasi, sepe
 
 ![Bjarne Stroustrup!](https://www.engineering.columbia.edu/files/seas/styles/300x300/public/content/bio_profile_image/2020/27/stroustrup_500.png "Bjarne Stroustrup")
 
-Nahhh.. untuk mengatasi masalah ini seorang dokter bernama [**Bjarne Stroustrup**](https://id.wikipedia.org/wiki/Bjarne_Stroustrup) di laboratorium yang sama menciptakan Bahasa baru yaitu Bahasa C++, yang merupakan Bahasa turunan dari Bahasa C. Keistimewaan dari Bahasa C++ adalah karena Bahasa ini mendukung pemrograman berarah objek atau dikenal dengan istilah _Object Oriented Programming_ (OOP).
+Nahhh.. untuk mengatasi masalah ini seorang dokter bernama [**Bjarne Stroustrup**](https://id.wikipedia.org/wiki/Bjarne_Stroustrup) di laboratorium yang sama menciptakan Bahasa baru yaitu **Bahasa C++**, yang merupakan Bahasa turunan dari Bahasa C. Keistimewaan dari Bahasa C++ adalah karena Bahasa ini mendukung pemrograman berarah objek atau dikenal dengan istilah _Object Oriented Programming_ (OOP).
 
 ## Hubungan antara Bahasa C dan C++
 
@@ -58,7 +59,9 @@ Terdapat beberapa tahapan yang terjadi pada saat proses pembentukan program, dar
 
 Setelah program (file `.exe` atau `.o`) terbentuk, file tersebut dapat dieksekusi atau dijalankan (Run), Program yang melakukan eksekusi ini disebut program **Loader**.
 
-Berikut adalah kerangka kode Program C++
+
+## Struktur Program C++
+Untuk menjalankan sebuah program pastinya kita harus menulis struktur kodenya terlebih dahulu, setelah itu baru kita menjalankanya _(Run)_, di bahasa C++ juga memiliki struktur kode untuk menjalankan sebuah program, berikut adalah struktur C++
 
 ```C++
 #include <iostream>
@@ -79,5 +82,20 @@ int main(){
 > `using namespace std;` : Statement ini menunjukkan bahwa kita menggunakan Bahasa C++ standar di dalam kode yang kita buat.
 >
 > `int main (){...}` : Statement ini digunakan untuk menuliskan fungsi utama.
+
+Jika kita lihat sekilas memang strukturnya hampir sama dengan bahasa C 🤔, itu karena bahasa C++ merupakan bahasa turunan dari bahasa C, jadi perbedaannya tidak jauh dari sebelumnya. 
+
+Berikut adalah struktur program bahasa C
+```C
+#include <stdio.h>
+
+int main(void){
+  
+  // Statement yang akan dijalankan
+
+  return 0;
+
+}
+```
 
 Mungkin sekian dulu penjelasan mengenai Bahasa C++, jika ada yang ingin ditanyakan silahkan bisa berkomentar, sampai jumpa di pembahasan selanjutnya 👋
