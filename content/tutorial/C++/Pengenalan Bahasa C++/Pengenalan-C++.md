@@ -21,7 +21,7 @@ C++ adalah Bahasa pemrograman yang digunakan oleh para praktisi atau ilmuwan unt
 
 ## Sejarah singkat C++
 
-Pada tahun 1969 di laboratorium Bell AT&T di Muray Hill, New Jersey menggunakan Bahasa Assembly (Bahasa tingkat rendah) untuk mengembangkan sistem operasi UNIX. Setelah UNIX berjalan, Ken Thompson, seorang pengembang sistem di laboratorium yang sama mengembangkan _compiler_ baru dengan nama Bahasa B. Karena Bahasa B masih bersifat _interpret_ dan lambat maka pada tahun 1971 sistem operasi UNIX kemudian ditulis ulang dengan menggunakan Bahasa C yang dikembangkan oleh Dennis Ritchie, yang merupakan seorang pengembang di lab yang sama.
+Pada tahun 1969 di laboratorium Bell AT&T di Muray Hill, New Jersey menggunakan Bahasa Assembly (Bahasa tingkat rendah) untuk mengembangkan sistem operasi [**UNIX**](https://id.wikipedia.org/wiki/Unix). Setelah UNIX berjalan, Ken Thompson, seorang pengembang sistem di laboratorium yang sama mengembangkan _compiler_ baru dengan nama Bahasa B. Karena Bahasa B masih bersifat _interpret_ dan lambat maka pada tahun 1971 sistem operasi UNIX kemudian ditulis ulang dengan menggunakan [Bahasa C](https://id.wikipedia.org/wiki/C_(bahasa_pemrograman)) yang dikembangkan oleh Dennis Ritchie, yang merupakan seorang pengembang di lab yang sama.
 
 Sampai sekarang Bahasa C masih digunakan untuk pengembangan sistem operasi, seperti Linux dan Windows. Alasan itulah yang menjadikan Bahasa C terkenal dikalangan para _programmer_. Namun sayangnya Bahasa C masih tergolong bahasa yang susah dipelajari karena bersifat prosedural murni. Karena untuk membuat suatu objek kita harus melakukan banyak sekali penulisan kode.
 
