@@ -3,6 +3,9 @@ mainSections = ["post", "tutorial"]
 # Output page's full content in RSS.
 rssFullContent = true
 
+[params]
+favicon = "/static/favicon.ico"  
+
 [footer]
 since = 2022
 customText = "made with &hearts; 4ndrexyz"

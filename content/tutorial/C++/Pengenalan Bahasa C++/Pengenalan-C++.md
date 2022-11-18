@@ -22,7 +22,7 @@ C++ adalah Bahasa pemrograman yang digunakan oleh para praktisi atau ilmuwan unt
 
 ## Sejarah singkat C++
 
-Pada tahun 1969 di laboratorium Bell AT&T di Muray Hill, New Jersey menggunakan Bahasa Assembly (Bahasa tingkat rendah) untuk mengembangkan sistem operasi [**UNIX**](https://id.wikipedia.org/wiki/Unix). Setelah UNIX berjalan, Ken Thompson, seorang pengembang sistem di laboratorium yang sama mengembangkan _compiler_ baru dengan nama Bahasa B. Karena Bahasa B masih bersifat _interpret_ dan lambat maka pada tahun 1971 sistem operasi UNIX kemudian ditulis ulang dengan menggunakan [Bahasa C](https://id.wikipedia.org/wiki/C_(bahasa_pemrograman)) yang dikembangkan oleh Dennis Ritchie, yang merupakan seorang pengembang di lab yang sama.
+Pada tahun 1969 di laboratorium Bell AT&T di Muray Hill, New Jersey menggunakan Bahasa Assembly (Bahasa tingkat rendah) untuk mengembangkan sistem operasi [**UNIX**](https://id.wikipedia.org/wiki/Unix). Setelah UNIX berjalan, Ken Thompson, seorang pengembang sistem di laboratorium yang sama mengembangkan _compiler_ baru dengan nama Bahasa B. Karena Bahasa B masih bersifat _interpret_ dan lambat maka pada tahun 1971 sistem operasi UNIX kemudian ditulis ulang dengan menggunakan [Bahasa C](<https://id.wikipedia.org/wiki/C_(bahasa_pemrograman)>) yang dikembangkan oleh Dennis Ritchie, yang merupakan seorang pengembang di lab yang sama.
 
 Sampai sekarang Bahasa C masih digunakan untuk pengembangan sistem operasi, seperti Linux dan Windows. Alasan itulah yang menjadikan Bahasa C terkenal dikalangan para _programmer_. Namun sayangnya Bahasa C masih tergolong bahasa yang susah dipelajari karena bersifat prosedural murni. Karena untuk membuat suatu objek kita harus melakukan banyak sekali penulisan kode.
 
@@ -37,13 +37,17 @@ Dalam Bahasa C/C++, tanda ++ merupakan _increment_, yaitu proses penambahan nila
 ## Standar C++
 
 ![ISO!](https://emsregistrars.co.id/wp-content/uploads/2018/11/iso_org.jpg "ISO")
+
 ### C++98
+
 Pada tahun 1998 Bahasa C++ mulai di standarisasi oleh ISO (Badan Standarisasi Internasional) dengan nama standar ISO/IEC 14882:1998 atau lebih dikenal dengan istilah C++98. Dalam standar ini ditambahkan fitur – fitur baru seperti _template, namespace, exception handling,_ dan lain – lain.
 
 ### C++03
+
 Lalu pada tahun 2003, C++ Kembali mengalami standarisasi dengan nama standar ISO/IEC 14882:2003 atau C++03, di standar ini tidak ada penambahan fitur baru. Karena standar ini hanya melakukan perbaikan ‘Bug’ pada C++98 agar bisa lebih konsisten dan portabel.
 
 ### C++11
+
 Terakhir pada tahun 2011 tepatnya pada tanggal 12 Agustus, C++ mengalami revisi dan standarisasi ulang dengan nama standar ISO/IEC 14882:2011 atau **C++11**, tapi banyak juga yang lebih senang menyebutnya dengan C++0x, distandar ini banyak fitur yang ditambahkan yaitu _multithreading, tuple, pengulangan for,_ dan lain – lain.
 
 ## Proses Pembentukan Program C++
@@ -59,8 +63,8 @@ Terdapat beberapa tahapan yang terjadi pada saat proses pembentukan program, dar
 
 Setelah program (file `.exe` atau `.o`) terbentuk, file tersebut dapat dieksekusi atau dijalankan (Run), Program yang melakukan eksekusi ini disebut program **Loader**.
 
-
 ## Struktur Program C++
+
 Untuk menjalankan sebuah program pastinya kita harus menulis struktur kodenya terlebih dahulu, setelah itu baru kita menjalankanya _(Run)_, di bahasa C++ juga memiliki struktur kode untuk menjalankan sebuah program, berikut adalah struktur C++
 
 ```C++
@@ -68,9 +72,9 @@ Untuk menjalankan sebuah program pastinya kita harus menulis struktur kodenya te
 using namespace std;
 
 int main(){
-    
+
     // Statement yang akan dijalankan
-    
+
     return 0;
 }
 ```
@@ -83,14 +87,15 @@ int main(){
 >
 > `int main (){...}` : Statement ini digunakan untuk menuliskan fungsi utama.
 
-Jika kita lihat sekilas memang strukturnya hampir sama dengan bahasa C 🤔, itu karena bahasa C++ merupakan bahasa turunan dari bahasa C, jadi perbedaannya tidak jauh dari sebelumnya. 
+Jika kita lihat sekilas memang strukturnya hampir sama dengan bahasa C 🤔, itu karena bahasa C++ merupakan bahasa turunan dari bahasa C, jadi perbedaannya tidak jauh dari sebelumnya.
 
 Berikut adalah struktur program bahasa C
+
 ```C
 #include <stdio.h>
 
 int main(void){
-  
+
   // Statement yang akan dijalankan
 
   return 0;
