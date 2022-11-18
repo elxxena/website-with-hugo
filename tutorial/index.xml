@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorials on 4ndrexyz</title><link>https://4ndrexyz.github.io/tutorial/</link><description>Recent content in Tutorials on 4ndrexyz</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 16 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://4ndrexyz.github.io/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>Modul C++ #1: Pengenalan Bahasa C++</title><link>https://4ndrexyz.github.io/tutorial/pengenalan-cpp/</link><pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate><guid>https://4ndrexyz.github.io/tutorial/pengenalan-cpp/</guid><description>&lt;img src="https://i.postimg.cc/Qtk245Nn/1-Pengenalan-C-01.jpg" alt="Featured image of post Modul C++ #1: Pengenalan Bahasa C++" />&lt;h1 id="pejelasan-dan-pengenalan-bahasa-c">Pejelasan dan Pengenalan Bahasa C++&lt;/h1>
+&lt;p>Halo, kali ini kita akan belajar mengenai bahasa pemrograman yang cukup populer yaitu bahasa C++, bagi kalian yang jurusan IT mungkin sudah tidak asing dengan bahasa ini. Bahasa C++ merupakan Bahasa yang wajib kita pelajari baik pada waktu SMK maupun Kuliah, dulu waktu SMK saya pun juga dituntut untuk belajar bahasa C++, mungkin karena jurusan saya yang berkaitan dengan Pemrograman, jadi yaa mau tidak mau harus belajar bahasa ini 😅.&lt;/p>
+&lt;p>Tapi sebenarnya tidak ada salahnya juga sih kita belajar Bahasa C++, malah menurut saya jika kita mendalami Bahasa C++ maka kita akan lebih mudah mempelajari Bahasa pemrograman yang lainnya seperti Python, Java, dan lain sebagainya.&lt;/p>
+&lt;h2 id="apa-itu-c-">Apa itu C++ ?&lt;/h2>
+&lt;p>C++ adalah Bahasa pemrograman yang digunakan oleh para praktisi atau ilmuwan untuk mengembangkan sebuah program (Aplikasi) berskala besar seperti Game, Program penelitian sains, dan lain sebagainya. Bahkan C++ juga dapat digunakan untuk mengembangkan aplikasi berbasis web, atau sering disebut dengan program CGI &lt;em>(Common Gateway Interface).&lt;/em>&lt;/p>
+&lt;h2 id="sejarah-singkat-c">Sejarah singkat C++&lt;/h2>
+&lt;p>Pada tahun 1969 di laboratorium Bell AT&amp;amp;T di Muray Hill, New Jersey menggunakan Bahasa Assembly (Bahasa tingkat rendah) untuk mengembangkan sistem operasi &lt;a class="link" href="https://id.wikipedia.org/wiki/Unix" target="_blank" rel="noopener"
+>&lt;strong>UNIX&lt;/strong>&lt;/a>. Setelah UNIX berjalan, Ken Thompson, seorang pengembang sistem di laboratorium yang sama mengembangkan &lt;em>compiler&lt;/em> baru dengan nama Bahasa B. Karena Bahasa B masih bersifat &lt;em>interpret&lt;/em> dan lambat maka pada tahun 1971 sistem operasi UNIX kemudian ditulis ulang dengan menggunakan &lt;a class="link" href="https://id.wikipedia.org/wiki/C_%28bahasa_pemrograman%29" target="_blank" rel="noopener"
+>Bahasa C&lt;/a> yang dikembangkan oleh Dennis Ritchie, yang merupakan seorang pengembang di lab yang sama.&lt;/p>
+&lt;p>Sampai sekarang Bahasa C masih digunakan untuk pengembangan sistem operasi, seperti Linux dan Windows. Alasan itulah yang menjadikan Bahasa C terkenal dikalangan para &lt;em>programmer&lt;/em>. Namun sayangnya Bahasa C masih tergolong bahasa yang susah dipelajari karena bersifat prosedural murni. Karena untuk membuat suatu objek kita harus melakukan banyak sekali penulisan kode.&lt;/p>
+&lt;p>&lt;img src="https://www.engineering.columbia.edu/files/seas/styles/300x300/public/content/bio_profile_image/2020/27/stroustrup_500.png"
+loading="lazy"
+alt="Bjarne Stroustrup!"
+>&lt;/p>
+&lt;p>Nahhh.. untuk mengatasi masalah ini seorang dokter bernama &lt;a class="link" href="https://id.wikipedia.org/wiki/Bjarne_Stroustrup" target="_blank" rel="noopener"
+>&lt;strong>Bjarne Stroustrup&lt;/strong>&lt;/a> di laboratorium yang sama menciptakan Bahasa baru yaitu &lt;strong>Bahasa C++&lt;/strong>, yang merupakan Bahasa turunan dari Bahasa C. Keistimewaan dari Bahasa C++ adalah karena Bahasa ini mendukung pemrograman berarah objek atau dikenal dengan istilah &lt;em>Object Oriented Programming&lt;/em> (OOP).&lt;/p>
+&lt;h2 id="hubungan-antara-bahasa-c-dan-c">Hubungan antara Bahasa C dan C++&lt;/h2>
+&lt;p>Dalam Bahasa C/C++, tanda ++ merupakan &lt;em>increment&lt;/em>, yaitu proses penambahan nilai dengan 1, dengan demikian C++ berarti &amp;ldquo;C+1&amp;rdquo;. Nilai 1 di sini melambangkan dukungan terhadap pemrograman berorientasi objek.&lt;/p>
+&lt;h2 id="standar-c">Standar C++&lt;/h2>
+&lt;p>&lt;img src="https://emsregistrars.co.id/wp-content/uploads/2018/11/iso_org.jpg"
+loading="lazy"
+alt="ISO!"
+>&lt;/p>
+&lt;h3 id="c98">C++98&lt;/h3>
+&lt;p>Pada tahun 1998 Bahasa C++ mulai di standarisasi oleh ISO (Badan Standarisasi Internasional) dengan nama standar ISO/IEC 14882:1998 atau lebih dikenal dengan istilah C++98. Dalam standar ini ditambahkan fitur – fitur baru seperti &lt;em>template, namespace, exception handling,&lt;/em> dan lain – lain.&lt;/p>
+&lt;h3 id="c03">C++03&lt;/h3>
+&lt;p>Lalu pada tahun 2003, C++ Kembali mengalami standarisasi dengan nama standar ISO/IEC 14882:2003 atau C++03, di standar ini tidak ada penambahan fitur baru. Karena standar ini hanya melakukan perbaikan ‘Bug’ pada C++98 agar bisa lebih konsisten dan portabel.&lt;/p>
+&lt;h3 id="c11">C++11&lt;/h3>
+&lt;p>Terakhir pada tahun 2011 tepatnya pada tanggal 12 Agustus, C++ mengalami revisi dan standarisasi ulang dengan nama standar ISO/IEC 14882:2011 atau &lt;strong>C++11&lt;/strong>, tapi banyak juga yang lebih senang menyebutnya dengan C++0x, distandar ini banyak fitur yang ditambahkan yaitu &lt;em>multithreading, tuple, pengulangan for,&lt;/em> dan lain – lain.&lt;/p>
+&lt;h2 id="proses-pembentukan-program-c">Proses Pembentukan Program C++&lt;/h2>
+&lt;p>Terdapat beberapa tahapan yang terjadi pada saat proses pembentukan program, dari kode menjadi file biner yang dapat dieksekusi. Dalam sistem operasi Windows file akan berekstensi &lt;code>.exe&lt;/code> sedangkan di sistem operasi Linux file akan berekstensi &lt;code>.o&lt;/code> Masing – masing tahapan dilakukan oleh program lain yang berbeda-beda, yaitu :&lt;/p>
+&lt;ul>
+&lt;li>C++ Preprosesor&lt;/li>
+&lt;li>C++ Compiler&lt;/li>
+&lt;li>Assembler&lt;/li>
+&lt;li>Linker&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://w0rmd404.files.wordpress.com/2015/12/pembentukan-program-c.png"
+loading="lazy"
+alt="Pembentukan Progam C&amp;#43;&amp;#43;!"
+>&lt;/p>
+&lt;p>Setelah program (file &lt;code>.exe&lt;/code> atau &lt;code>.o&lt;/code>) terbentuk, file tersebut dapat dieksekusi atau dijalankan (Run), Program yang melakukan eksekusi ini disebut program &lt;strong>Loader&lt;/strong>.&lt;/p>
+&lt;h2 id="struktur-program-c">Struktur Program C++&lt;/h2>
+&lt;p>Untuk menjalankan sebuah program pastinya kita harus menulis struktur kodenya terlebih dahulu, setelah itu baru kita menjalankanya &lt;em>(Run)&lt;/em>, di bahasa C++ juga memiliki struktur kode untuk menjalankan sebuah program, berikut adalah struktur C++&lt;/p>
+&lt;div class="codeblock">
+&lt;header>
+&lt;span class="codeblock-lang">C&amp;#43;&amp;#43;&lt;/span>
+&lt;button
+class="codeblock-copy"
+data-id="codeblock-id-0"
+data-copied-text="Copied!"
+>
+Copy
+&lt;/button>
+&lt;/header>
+&lt;code id="codeblock-id-0" style="display:none;">#include &amp;lt;iostream&amp;gt;
+using namespace std;
+int main(){
+// Statement yang akan dijalankan
+return 0;
+}&lt;/code>&lt;div class="">&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-C++" data-lang="C++">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;iostream&amp;gt;&lt;/span>&lt;span class="cp">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>&lt;span class="k">using&lt;/span> &lt;span class="k">namespace&lt;/span> &lt;span class="n">std&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="nf">main&lt;/span>&lt;span class="p">(){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// Statement yang akan dijalankan
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/div>&lt;/div>
+&lt;blockquote>
+&lt;p>&lt;strong>Penjelasan Kode Diatas&lt;/strong>&lt;/p>
+&lt;p>&lt;code>&amp;lt;iostream&amp;gt;&lt;/code> : File header yang digunakan untuk proses &lt;em>input/output.&lt;/em>&lt;/p>
+&lt;p>&lt;code>using namespace std;&lt;/code> : Statement ini menunjukkan bahwa kita menggunakan Bahasa C++ standar di dalam kode yang kita buat.&lt;/p>
+&lt;p>&lt;code>int main (){...}&lt;/code> : Statement ini digunakan untuk menuliskan fungsi utama.&lt;/p>
+&lt;/blockquote>
+&lt;p>Jika kita lihat sekilas memang strukturnya hampir sama dengan bahasa C 🤔, itu karena bahasa C++ merupakan bahasa turunan dari bahasa C, jadi perbedaannya tidak jauh dari sebelumnya.&lt;/p>
+&lt;p>Berikut adalah struktur program bahasa C&lt;/p>
+&lt;div class="codeblock">
+&lt;header>
+&lt;span class="codeblock-lang">C&lt;/span>
+&lt;button
+class="codeblock-copy"
+data-id="codeblock-id-1"
+data-copied-text="Copied!"
+>
+Copy
+&lt;/button>
+&lt;/header>
+&lt;code id="codeblock-id-1" style="display:none;">#include &amp;lt;stdio.h&amp;gt;
+int main(void){
+// Statement yang akan dijalankan
+return 0;
+}&lt;/code>&lt;div class="">&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-C" data-lang="C">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">#include&lt;/span> &lt;span class="cpf">&amp;lt;stdio.h&amp;gt;&lt;/span>&lt;span class="cp">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="nf">main&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">void&lt;/span>&lt;span class="p">){&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// Statement yang akan dijalankan
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/div>&lt;/div>
+&lt;p>Mungkin sekian dulu penjelasan mengenai Bahasa C++, jika ada yang ingin ditanyakan silahkan bisa berkomentar, sampai jumpa di pembahasan selanjutnya 👋&lt;/p></description></item></channel></rss>
